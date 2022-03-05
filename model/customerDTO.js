@@ -7,28 +7,28 @@ function customerDTO(id, name, address, contact) {
     this.getID= function () {
        return  customerID;
     }
-    this.setID= function () {
+    this.setID= function (id) {
          customerID=id;
     }
 
     this.getNAME= function () {
         return  customerNAME;
     }
-    this.setNAME= function () {
+    this.setNAME= function (name) {
         customerNAME=name;
     }
 
     this.getADDRESS= function () {
         return  customerADDRESS;
     }
-    this.setADDRESS= function () {
+    this.setADDRESS= function (address) {
         customerADDRESS=address;
     }
 
     this.getCONTACT= function () {
         return  customerCONTACT;
     }
-    this.setCONTACT= function () {
+    this.setCONTACT= function (contact) {
         customerCONTACT=contact;
     }
 }
